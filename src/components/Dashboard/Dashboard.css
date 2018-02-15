@@ -1,0 +1,20 @@
+.filter {
+  background-color: #e9f2ff;
+  padding: 5rem 11.5rem;
+  color: #052039;
+
+  border-bottom: 1rem solid #052039;
+}
+
+.mt-25 {
+  margin-top: 25vh;
+}
+
+.showcase {
+  background-color: #fff;
+  padding: 5rem;
+}
+
+.card-body {
+  background-color: #e9f2ff;
+}

@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom"; // to navigate the dom
+import "./App.css";
 
-const Header = () => <h2>header</h2>;
+import Dashboard from "./Dashboard/Dashboard";
+
 const Landing = () => <h2>Landing</h2>;
-const Dashboard = () => <h2>Dashboard</h2>;
 
 class App extends Component {
   render() {
@@ -11,9 +12,8 @@ class App extends Component {
       <div>
         <BrowserRouter>
           <div>
-            <Header />
-            <Route exact path="/" component={Landing} />
-            <Route path="/dash" component={Dashboard} />
+            <Route exact path="/" component={Dashboard} />
+            <Route path="/land" component={Landing} />
           </div>
         </BrowserRouter>
       </div>
