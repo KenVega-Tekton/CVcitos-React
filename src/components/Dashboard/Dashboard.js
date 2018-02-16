@@ -30,13 +30,113 @@ class Dashboard extends Component {
           <div className="col-1" />
           <div className="col-11 filter mt-25">
             <div className="row mb-4">
-              <div className="col-4">Area</div>
-              <div className="col-4">Puesto</div>
-              <div className="col-4">Update</div>
+              <div className="col-4">
+                <div className="form-group row">
+                  <label
+                    htmlFor="exampleFormControlSelect1"
+                    className="col-3 col-form-label"
+                  >
+                    Área
+                  </label>
+                  <div className="col-9 pl-0">
+                    <select
+                      className="form-control form-control-sm"
+                      id="exampleFormControlSelect1"
+                    >
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div className="col-4">
+                <div className="form-group row">
+                  <label
+                    htmlFor="exampleFormControlSelect1"
+                    className="col-3 col-form-label"
+                  >
+                    Puesto
+                  </label>
+                  <div className="col-9">
+                    <select
+                      className="form-control form-control-sm"
+                      id="exampleFormControlSelect1"
+                    >
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div className="col-4">
+                <div className="form-group row">
+                  <label
+                    htmlFor="exampleFormControlSelect1"
+                    className="col-3 col-form-label"
+                  >
+                    Update
+                  </label>
+                  <div className="col-9">
+                    <select
+                      className="form-control"
+                      id="exampleFormControlSelect1"
+                    >
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="row">
-              <div className="col-8">Knowledge</div>
-              <div className="col-4">Years</div>
+              <div className="col-8">
+                <div className="form-group row">
+                  <label
+                    htmlFor="exampleFormControlSelect1"
+                    className="col-2 col-form-label"
+                  >
+                    Knowledge
+                  </label>
+                  <div className="col-10">
+                    <select
+                      className="form-control"
+                      id="exampleFormControlSelect1"
+                    >
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div className="col-4">
+                <div className="form-group row">
+                  <label
+                    htmlFor="exampleFormControlSelect1"
+                    className="col-3 col-form-label"
+                  >
+                    Years
+                  </label>
+                  <div className="col-3 pl-0">
+                    <input type="text" className="form-control" id="e" />
+                  </div>
+                  <label className="col-1 col-form-label p-0">-</label>
+                  <div className="col-3 pl-0">
+                    <input type="text" className="form-control" id="d" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
