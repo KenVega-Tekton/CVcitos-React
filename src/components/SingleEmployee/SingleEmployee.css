@@ -1,0 +1,31 @@
+.asdf {
+  color: red;
+  font-family: "Poppins";
+}
+
+.summaryText {
+  font-size: 1.2rem;
+  border: none;
+}
+
+.summaryText:focus {
+  outline: none;
+  /*box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.25);*/
+}
+
+.poppins {
+  font-family: "Poppins";
+}
+
+.inputText {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.mayus {
+  text-transform: uppercase;
+}
+
+.sub-title-cv {
+  letter-spacing: 3px;
+}

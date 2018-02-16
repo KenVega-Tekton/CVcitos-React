@@ -5,3 +5,13 @@ body {
   margin: 0;
   background-color: #6a52ff;
 }
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url(../assets/ProximaNova-Regular.otf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/Poppins-Regular.ttf);
+}

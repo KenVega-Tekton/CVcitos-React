@@ -2,7 +2,6 @@
   background-color: #e9f2ff;
   padding: 5rem 11.5rem;
   color: #052039;
-
   border-bottom: 1rem solid #052039;
 }
 
@@ -17,4 +16,14 @@
 
 .card-body {
   background-color: #e9f2ff;
+}
+
+.title {
+  color: #fff;
+  font-size: 3rem;
+  padding-left: 4rem;
+}
+
+.initial-row {
+  padding: 5rem 0 2rem 0;
 }

@@ -26,9 +26,15 @@ class Dashboard extends Component {
   render() {
     return (
       <div className="container-fluid total">
+        <div className="row initial-row">
+          <div className="col-1" />
+          <div className="col-11">
+            <h3 class="title mb-0">CVcitos</h3>
+          </div>
+        </div>
         <div className="row">
           <div className="col-1" />
-          <div className="col-11 filter mt-25">
+          <div className="col-11 filter">
             <div className="row mb-4">
               <div className="col-4">
                 <div className="form-group row">
